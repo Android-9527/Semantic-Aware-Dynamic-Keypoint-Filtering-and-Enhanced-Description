@@ -2,6 +2,10 @@
 
 This repository implements a semantic-aware keypoint detection and description framework for dynamic outdoor scenes. The method predicts keypoint repeatability and reliability in a single network, removes unreliable keypoints around dynamic objects and boundaries, and produces semantic-geometric-texture fused descriptors for robust matching under viewpoint and illumination changes.
 
+![fig31](assets/fig31.png)
+
+![fig32](assets/fig32.png)
+
 ## Contributions
 
 - Reformulate multi-class semantic segmentation as a keypoint reliability binary classification problem and combine it with repeatability for robust keypoint selection.
