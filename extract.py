@@ -1,10 +1,4 @@
-# -*- coding: UTF-8 -*-
-'''=================================================
-@Project -> File   sfd2 -> extract
-@IDE    PyCharm
-@Author fx221@cam.ac.uk
-@Date   09/03/2023 16:27
-=================================================='''
+
 import torch
 import torch.nn.functional as F
 

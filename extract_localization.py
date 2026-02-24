@@ -1,10 +1,4 @@
-# -*- coding: UTF-8 -*-
-'''=================================================
-@Project -> File   r2d2 -> extract_localization
-@IDE    PyCharm
-@Author fx221@cam.ac.uk
-@Date   13/07/2022 09:59
-=================================================='''
+
 import os
 import os.path as osp
 import h5py
@@ -19,7 +13,7 @@ import pprint
 from pathlib import Path
 import argparse
 
-from nets.sfd2 import ResSegNet, ResSegNetV2
+from nets.sematicpoint import ResSegNet, ResSegNetV2
 from nets.extractor import extract_resnet_return
 
 confs = {
